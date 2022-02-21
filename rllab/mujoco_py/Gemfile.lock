@@ -1,29 +1,31 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.1.8)
-      i18n (~> 0.6, >= 0.6.9)
-      json (~> 1.7, >= 1.7.7)
-      minitest (~> 5.1)
-      thread_safe (~> 0.1)
-      tzinfo (~> 1.1)
+    activesupport (7.0.2.2)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
     coderay (1.1.0)
-    i18n (0.7.0)
-    json (1.8.1)
+    concurrent-ruby (1.1.9)
+    i18n (1.10.0)
+      concurrent-ruby (~> 1.0)
     method_source (0.8.2)
-    minitest (5.5.1)
+    minitest (5.15.0)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
     slop (3.6.0)
-    thread_safe (0.3.4)
-    tzinfo (1.2.2)
-      thread_safe (~> 0.1)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport
+  activesupport (>= 5.2.4.3)
   pry
+
+BUNDLED WITH
+   2.1.4
